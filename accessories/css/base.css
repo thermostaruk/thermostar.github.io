@@ -794,40 +794,6 @@ textarea {
 }
 
 
-/* ------------------------------------------------------------------- 
- * ## mobile devices
- * ------------------------------------------------------------------- */
-@media only screen and (max-width: 600px) {
-    .block-mob-1-6 .col-block {
-        width: 16.66667%;
-    }
-    .block-mob-1-5 .col-block {
-        width: 20%;
-    }
-    .block-mob-1-4 .col-block {
-        width: 25%;
-    }
-    .block-mob-1-3 .col-block {
-        width: 33.33333%;
-    }
-    .block-mob-1-2 .col-block {
-        width: 50%;
-    }
-    .block-mob-full .col-block {
-        width: 100%;
-        clear: both;
-    }
-    [class*="block-mob-"] .col-block:nth-child(n) {
-        clear: none;
-    }
-    .block-mob-1-6 .col-block:nth-child(6n+1),
-    .block-mob-1-5 .col-block:nth-child(5n+1),
-    .block-mob-1-4 .col-block:nth-child(4n+1),
-    .block-mob-1-3 .col-block:nth-child(3n+1),
-    .block-mob-1-2 .col-block:nth-child(2n+1) {
-        clear: both;
-    }
-}
 
 /* ===================================================================
  * # MISC
