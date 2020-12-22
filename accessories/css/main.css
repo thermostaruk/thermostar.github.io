@@ -2709,7 +2709,26 @@ html.no-csstransitions .home-content__main {
     all: unset;
 }
 }
-
+@media only screen and (max-width: 600px) {
+    .s-works {
+        padding-bottom: 12rem;
+    }
+    .s-works .intro-wrap {
+        padding: 12rem 0 25.2rem;
+    }
+    .works-content {
+        margin-top: -2rem;
+    }
+    .masonry__brick {
+        width: 50%;
+    }
+    .item-folio__title, .item-folio__cat {
+        font-size: 1.4rem;
+    }
+.item-folio__text {
+    all: unset;
+}
+}
 /* ===================================================================
  * # clients
  *
