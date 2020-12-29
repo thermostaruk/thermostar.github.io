@@ -1042,4 +1042,25 @@ NW10 6RF<br>
   </div>
   </div>
 </footer>
+ <script>
+$(document).ready(function() {
+$('.popup').click(openModalPopupClick);
+
+      function openModalPopup(){
+        var hashText = window.location.hash.substr();
+        if (hashText){
+          $(hashText).modal('show');
+        }
+      }
+
+      openModalPopup();
+
+      function openModalPopupClick(){
+        var hashText = $(this).attr('href');
+        if (hashText){
+          $(hashText).modal('show');
+        }
+      }
+});
+ </script>
 </body>
