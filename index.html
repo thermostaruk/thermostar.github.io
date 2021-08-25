@@ -1023,5 +1023,26 @@ $(".modal").on("shown.bs.modal", function()  {
   $(window).on('popstate', function() { 
     $(".modal").modal('hide');
   });
+	 
+
+  $("#ProductVideo").on('hidden.bs.modal', function (e) {
+    $("#ProductVideo iframe").attr("src", $("#ProductVideo iframe").attr("src"));
+});
+
+$("#TechnologyVideo").on('hidden.bs.modal', function (e) {
+    $("#TechnologyVideo iframe").attr("src", $("#TechnologyVideo iframe").attr("src"));
+});
+
+$("#ApplicationVideo").on('hidden.bs.modal', function (e) {
+    $("#ApplicationVideo iframe").attr("src", $("#ApplicationVideo iframe").attr("src"));
+});
+
+$("#SteamIronVideo").on('hidden.bs.modal', function (e) {
+    $("#SteamIronVideo iframe").attr("src", $("#SteamIronVideo iframe").attr("src"));
+});
+
+$("#TrainingVideo").on('hidden.bs.modal', function (e) {
+    $("#TrainingVideo iframe").attr("src", $("#TrainingVideo iframe").attr("src"));
+});
  </script>
 </body>
