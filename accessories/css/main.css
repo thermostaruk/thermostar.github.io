@@ -3359,9 +3359,7 @@ footer a:hover, footer a:focus, footer a:active {
     color: #27459F;
 }
 
-footer .row {
-    max-width: 980px;
-}
+
 
 
 /* --------------------------------------------------------------- 
@@ -3541,9 +3539,7 @@ footer .row {
 }
 
 @media only screen and (max-width: 800px) {
-    footer .row {
-        max-width: 600px;
-    }
+
     .footer-main .left {
         padding-right: 15px;
         margin-bottom: 4.2rem;
